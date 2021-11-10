@@ -22,12 +22,13 @@ export default {
   background-color: #fafafa;
   padding: 24px;
   box-sizing: border-box;
+  font-size: 18px;
 }
 
 html,
 body,
 #app {
-  height: 100%;
+  min-height: 100vh;
 }
 
 * {
